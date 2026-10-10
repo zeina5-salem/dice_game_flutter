@@ -73,7 +73,7 @@ class playDiceState extends State<playDice> {
             ),
             const SizedBox(height: 20),
             Image.asset(
-              total >= 8 ? 'assets/happy.png' : 'assets/sad.png',
+              total >= 10 ? 'assets/happy.png' : 'assets/sad.png',
               width: 150,
               height: 120,
               fit: BoxFit.contain,
